@@ -3,6 +3,6 @@
 
 <template>
   <main>
-    <p>forside</p>
+    <p>billetinformation</p>
   </main>
 </template>

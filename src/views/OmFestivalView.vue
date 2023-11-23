@@ -3,6 +3,6 @@
 
 <template>
   <main>
-    <p>forside</p>
+    <p>om festivalen</p>
   </main>
 </template>
