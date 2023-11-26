@@ -8,7 +8,7 @@ import Vinudstillere from '../components/Vinudstillere.vue';
     <p>forside</p>
 
     <section>
-      <program2024 />
+      <Program2024 />
     </section>
     <section>
       <Vinudstillere />

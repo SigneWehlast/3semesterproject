@@ -1,8 +1,8 @@
 <script setup>
-import Laermere from '../components/Laermere.vue';
+import RiedelGlas from '../components/RiedelGlas.vue';
+import LaerMere from '../components/LaerMere.vue';
 import OmOS from '../components/OmOs.vue';
 import Historie from '../components/Historie.vue';
-import RiedelGlas from '../components/RiedelGlas.vue';
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import RiedelGlas from '../components/RiedelGlas.vue';
     <p>om festivalen</p>
   </main>
   <section>
-    <Laermere />
+    <LaerMere />
   </section>
   <section>
     <OmOS />
