@@ -1,3 +1,4 @@
+/*Mobil*/
 body {
   background-color: #FFF4F2;
 }
@@ -88,4 +89,44 @@ a {
   margin: auto;
   border-color: #707070;
   border-style: solid;
+}
+
+/*Tablet*/
+@media screen and (min-width: 601px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .btn {
+    height: 91px;
+    width: 273px;
+    font-size: 25px;
+  }
+}
+
+/*Web*/
+@media only screen and (min-width: 960px) {
+
+  h1 {
+    font-size: 90px;
+  }
+
+  h2 {
+    font-size: 45px;
+    line-height: 54px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
 }
