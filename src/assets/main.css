@@ -1,26 +1,70 @@
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
+body {
+  background-color: #FFF4F2;
 }
 
-a,
-.green {
+.pinkbackground {
+  background-color: #F8DCDB;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #2D3142;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.h2_leftalign {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #2D3142;
+  padding-left: 20px;
+}
+
+.btn_blue {
+  height: 41px;
+  width: 127px;
+  background-color: #2D3142;
+  border-radius: 7px;
+  margin: auto;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+}
+
+.btn_blue:hover {
+  background-color: #A8B2C1;
+  color:#2D3142;
+}
+
+.btn_pink {
+  height: 41px;
+  width: 127px;
+  background-color: #E35153;
+  border-radius: 7px;
+  margin: auto;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+}
+
+.btn_pink:hover {
+  background-color: #ED8082;
+}
+
+a {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
- 
-
+  color: #2D3142;
 }
