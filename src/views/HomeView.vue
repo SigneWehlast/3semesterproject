@@ -35,13 +35,13 @@ import Vinudstillere from '../components/Vinudstillere.vue';
         de bedste forudsætninger.</p>
 
       <!--Billede af billet-->
-      <div class="btn_blue">KØB BILLET</div>
+      <div class="btn blue">KØB BILLET</div>
     </section>
 
     <section class="pinkbackground">
       <h2>PROGRAM ROSÉ FESTIVAL 2024</h2>
       <Program2024 />
-      <div class="btn_pink">PROGRAM</div>
+      <div class="btn pink">PROGRAM</div>
     </section>
     <section>
       <h2>BLIV EN DEL AF FÆLLESSKABET</h2>
@@ -56,7 +56,7 @@ import Vinudstillere from '../components/Vinudstillere.vue';
         vinaktører på Odense Rosé Festival 2024.
       </p>
       <Vinudstillere />
-      <div class="btn_pink">LÆS MERE</div>
+      <div class="btn pink">LÆS MERE</div>
     </section>
   </main>
 </template>

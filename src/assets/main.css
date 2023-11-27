@@ -6,6 +6,10 @@ body {
   background-color: #F8DCDB;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 h1 {
   font-size: 25px;
   line-height: 30px;
@@ -18,12 +22,14 @@ h2 {
   color: #2D3142;
   text-align: center;
   padding-top: 20px;
+  padding-right: 20px;
 }
 
 .h2_leftalign {
   text-align: left;
   padding-left: 20px;
   padding-top: 20px;
+  padding-right: 20px;
 }
 
 p {
@@ -31,12 +37,16 @@ p {
   line-height: 25px;
   color: #2D3142;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
-.btn_blue {
+.p_centeralign {
+  text-align: center;
+}
+
+.btn {
   height: 41px;
   width: 127px;
-  background-color: #2D3142;
   border-radius: 7px;
   margin: auto;
   color: #FFFFFF;
@@ -44,27 +54,38 @@ p {
   font-size: 14px;
 }
 
-.btn_blue:hover {
+.blue {
+  background-color: #2D3142;
+}
+
+.blue:hover {
   background-color: #A8B2C1;
   color:#2D3142;
 }
 
-.btn_pink {
-  height: 41px;
-  width: 127px;
+.pink {
   background-color: #E35153;
-  border-radius: 7px;
-  margin: auto;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 14px;
 }
 
-.btn_pink:hover {
+.pink:hover {
   background-color: #ED8082;
 }
 
 a {
   text-decoration: none;
   color: #2D3142;
+}
+
+.footer_flexcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.program_box {
+  height: 91px;
+  width: 353px;
+  background-color: #FFFFFF;
+  margin: auto;
+  border-color: #707070;
+  border-style: solid;
 }

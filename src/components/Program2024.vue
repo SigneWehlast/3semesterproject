@@ -2,5 +2,8 @@
 </script>
 
 <template>
-    <p>program 2024</p>
+    <div class="program_box">
+        <p>10:30</p>
+        <p>Dørene åbner</p>
+    </div>
 </template>
