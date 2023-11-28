@@ -51,8 +51,10 @@ p {
   border-radius: 7px;
   margin: auto;
   color: #FFFFFF;
-  text-align: center;
   font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .blue {
