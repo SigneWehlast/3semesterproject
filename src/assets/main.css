@@ -17,12 +17,6 @@ footer {
   margin-top: 20px;
 }
 
-.footer_flexcontainer {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
 h1 {
   font-size: 25px;
   line-height: 30px;
@@ -114,6 +108,15 @@ a {
 
 .btn_form {
   border: none;
+}
+
+/*Mobil*/
+@media screen and (max-width: 960px) {  
+  .footer_flexcontainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
 }
 
 /*Tablet*/

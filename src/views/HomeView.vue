@@ -39,7 +39,7 @@ import Vinudstillere from '../components/Vinudstillere.vue';
         inkluderer 15 slags rosévine fra forskellige 
         forhandlere, en stemningsfuld festivalplads. 
         Derudover får du dit helt eget indgraverede Riedel 
-        “Vinum Extreme Rose”-glas,så dine smagninger har 
+        “Vinum Extreme Rose”-glas, så dine smagninger har 
         de bedste forudsætninger.</p>
 
       <!--Billede af billet-->
