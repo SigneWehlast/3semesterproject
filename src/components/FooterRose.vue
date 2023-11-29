@@ -34,7 +34,7 @@
             <p class="p_centeralign">Tilmeld vores nyhedsbrev</p>
             <form class="submitform" v-on:submit.prevent="onSubmitForm">
                 <input class="inputform" type="text" v-model="name" placeholder="Navn" />
-                <input class="inputform" type="text" v-model="email" placeholder="Email" />
+                <input class="inputform" type="email" v-model="email" placeholder="Email" />
             
                 <button type="submit" class="btn pink btn_form">TILMELD</button>
             </form>

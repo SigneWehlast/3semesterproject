@@ -1,9 +1,11 @@
 <script setup>
+const props = defineProps ([ 'programData' ]);
 </script>
 
 <template>
     <div class="program_box">
-        <p>10:30</p>
-        <p>Dørene åbner</p>
+        <p>{{ programData.time }}</p>
+        <p> {{ programData.description }}</p>
+        <img :src="programData.image" alt="program billede" />
     </div>
 </template>
