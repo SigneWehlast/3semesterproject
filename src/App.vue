@@ -5,7 +5,7 @@ import HeaderRose from './components/HeaderRose.vue'
 
 <template>
   <HeaderRose />
-
+  <p>Hest</p>
   <FooterRose />
 </template>
 

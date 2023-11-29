@@ -1,28 +1,12 @@
 <script setup>
+import{
+  onMounted,
+  ref
+} from 'vue';
 import Program2024 from '../components/Program2024.vue';
 import Vinudstillere from '../components/Vinudstillere.vue';
 
-const fProgram = ref({});
-const error = ref(null);
 
-onMounted(() => {
-  getForsideProgram();
-})
-
-const getForsideProgram = () => {
-  fetch('https://semesterproject-c7cbb-default-rtdb.europe-west1.firebasedatabase.app/forsideprogram.json', {
-    method: 'GET'
-  })
-  .then((res) => res.json())
-  .then((res) => {
-    console.log(res);
-    fProgram.value = res;
-  })
-  .catch((err) => {
-  console.log(err);
-  error.value = 'Kunne ikke hente data';
-  });
-};
 
 
 </script>
@@ -64,7 +48,9 @@ const getForsideProgram = () => {
 
     <section class="pinkbackground">
       <h2>PROGRAM ROSÉ FESTIVAL 2024</h2>
-      <Program2024 />
+      <div>
+        <Program2024 />
+      </div>
       <div class="btn pink">PROGRAM</div>
     </section>
     <section>
