@@ -8,6 +8,10 @@ body {
   background-color: #FFF4F2;
 }
 
+section {
+  padding-bottom: 30px;
+}
+
 .pinkbackground {
   background-color: #F8DCDB;
   padding-bottom: 30px;
@@ -121,6 +125,28 @@ a {
 
 .btn_form {
   border: none;
+}
+
+.symbol {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.billet {
+  width: 50%;
+  height: auto;
+}
+
+.hero_movie {
+  width: 80%;
 }
 
 /*Mobil*/
