@@ -4,7 +4,7 @@ import{
   ref
 } from 'vue';
 /*const props = defineProps ([ 'programData' ]);*/
-const props = defineProps([ 'time', 'description', 'image' ])
+/*const props = defineProps([ 'time', 'description', 'image' ])*/
 
 const fProgram = ref([]);
 const error = ref(null);
@@ -21,6 +21,7 @@ const getForsideProgram = () => {
   .then((res) => {
     console.log(res);
     fProgram.value = res;
+    console.log(fProgram)
   })
   .catch((err) => {
   console.log(err);
@@ -35,10 +36,16 @@ const getForsideProgram = () => {
         <p>{{ programData.time }}</p>
         <p> {{ programData.description }}</p>
         <img :src="programData.image" alt="program billede" />
-    </div>-->
+    </div>
     <div class="program_box">
         <h3>{{ props.time }}</h3>
         <p> {{ props.description }}</p>
         <img :src="props.image" alt="program billede" />
+        {{  fProgram }}
+    </div> -->
+    <div class="program_box">
+        <h3>{{ fProgram.time }}</h3>
+        <p>{{ fProgram.description }}</p>
+        <img :src="fProgram.image" alt="Program billede" />
     </div>
 </template>

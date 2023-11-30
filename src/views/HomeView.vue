@@ -5,7 +5,9 @@ import{
 } from 'vue';
 import Program2024 from '../components/Program2024.vue';
 import Vinudstillere from '../components/Vinudstillere.vue';
-
+onMounted(() => {
+  getForsideProgram();
+});
 
 
 

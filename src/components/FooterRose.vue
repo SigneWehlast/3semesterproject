@@ -1,5 +1,6 @@
 <script setup>
     import { ref } from 'vue';
+    import Popup from './Popup.vue';
 
     const emit = defineEmits(['submitted']);
 
@@ -38,6 +39,9 @@
             
                 <button type="submit" class="btn pink btn_form">TILMELD</button>
             </form>
+            <Popup>
+                <h2></h2>
+            </Popup>
         </div>
         <div class="footer_flexcontainer">
             <div class="footer_info">

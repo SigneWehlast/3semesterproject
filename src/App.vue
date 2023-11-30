@@ -1,6 +1,11 @@
 <script setup>
 import FooterRose from './components/FooterRose.vue'
 import HeaderRose from './components/HeaderRose.vue'
+import Popup from './components/Popup.vue';
+
+
+
+
 </script>
 
 <template>
