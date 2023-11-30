@@ -20,15 +20,19 @@ import Vinudstillere from '../components/Vinudstillere.vue';
         brag af en festival fyldt med</p>
       
       <div><!--Symbol-->
+        <img src="../assets/pictures/champagne-glass.png" alt="icon af glas der skåler" />
         <p>Underholdning</p>
       </div>
       <div><!--Symbol-->
+        <img src="../assets/pictures/speech-bubbles-comment-option.png" alt="icon af talebobler" />
         <p>Socialisering & god stemning</p>
       </div>
       <div><!--Symbol-->
+        <img src="../assets/pictures/fork-and-knife.png" alt="icon af kniv og gafler" />
         <p>Lækker mad & Iskold Rosé</p>
       </div>
       <div><!--Symbol-->
+        <img src="../assets/pictures/music-player.png" alt="icon af en node" />
         <p>Efterfest med DJ</p>
       </div>
 
