@@ -10,7 +10,6 @@ import Popup from './components/Popup.vue';
 
 <template>
   <HeaderRose />
-  <p>Hest</p>
   <FooterRose />
 </template>
 

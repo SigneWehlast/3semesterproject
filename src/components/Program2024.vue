@@ -35,7 +35,7 @@ const getForsideProgram = () => {
     <div v-for="(program, index) in fProgram" :key="index" class="program_box">
       <div class="content_container">
         <h3>{{ program.time }}</h3>
-        <p>{{ program.description }}</p>
+        <p class="content_p">{{ program.description }}</p>
       </div>
       <div class="image_container">
         <img :src="program.image" alt="Program billede" class="program_image" />
@@ -47,16 +47,25 @@ const getForsideProgram = () => {
 <style scoped>
 .container {
   display: flex;
-  flex-direction: column; /* Gør containeren til en lodret flex-container */
+  flex-direction: column; 
   align-items: center;
-  height: 100vh; /* Gør containeren 100% af viewportens højde */
+  padding-bottom: 20px; 
 }
 
 .program_box {
   display: flex;
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
+  width: 80%;
+}
+
+.content_p {
+  font-size: 14px;
+  color: #2D3142;
+  padding-right: 20px;
+  padding-left: 0px;
+  line-height: 15px;
 }
 
 .content_container {
@@ -65,8 +74,8 @@ const getForsideProgram = () => {
 }
 
 .image_container {
-  width: 100px; /* Juster denne værdi efter dine behov */
-  height: 100px; /* Juster denne værdi efter dine behov */
+  width: 100px; 
+  height: 100px; 
   overflow: hidden;
   margin-left: 10px;
 }
