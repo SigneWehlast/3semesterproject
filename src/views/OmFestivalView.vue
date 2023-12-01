@@ -9,7 +9,7 @@ import Historie from '../components/Historie.vue';
   <main>
     <h2>OM ROSÉ FESTIVAL ODENSE</h2>
   </main>
-  <section>
+  <section class="pinkbackground">
     <h2>LÆR MERE OM FESTIVALEN</h2>
     <LaerMere />
   </section>
@@ -17,7 +17,7 @@ import Historie from '../components/Historie.vue';
     <h2>OM OS</h2>
     <OmOS />
   </section>
-  <section>
+  <section class="pinkbackground">
     <h2>HISTORIEN OM ROSÉ FESTIVAL ODENSE</h2>
     <Historie />
   </section>

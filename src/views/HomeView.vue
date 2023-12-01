@@ -1,10 +1,7 @@
 <script setup>
 
-import Program2024 from '../components/Program2024.vue';
+import Program2024 from '../components/program2024.vue';
 import Vinudstillere from '../components/Vinudstillere.vue';
-
-
-
 
 </script>
 
@@ -13,39 +10,44 @@ import Vinudstillere from '../components/Vinudstillere.vue';
     <section>
       <!--hero-->
     </section>
-    <section>
-      <h2 class="h2_leftalign">VELKOMMEN TIL ROSÉ FESTIVAL ODENSE</h2>
-      <p>Odenses største og pinkeste rosé festival har 
-        eksisteret siden 2018 og formår hvert år at levere et 
-        brag af en festival fyldt med</p>
-      
-      <div class="symbol"><!--Symbol-->
-        <img src="../assets/pictures/champagne-glass.png" alt="icon af glas der skåler" />
-        <p>Underholdning</p>
-      </div>
-      <div class="symbol"><!--Symbol-->
-        <img src="../assets/pictures/speech-bubbles-comment-option.png" alt="icon af talebobler" />
-        <p>Socialisering & god stemning</p>
-      </div>
-      <div class="symbol"><!--Symbol-->
-        <img src="../assets/pictures/fork-and-knife.png" alt="icon af kniv og gafler" />
-        <p>Lækker mad & Iskold Rosé</p>
-      </div>
-      <div class="symbol"><!--Symbol-->
-        <img src="../assets/pictures/music-player.png" alt="icon af en node" />
-        <p>Efterfest med DJ</p>
-      </div>
+    <section class="welcome_container">
+      <div class="welcome_leftalign">
+        <h2 class="h2_leftalign">VELKOMMEN TIL ROSÉ FESTIVAL ODENSE</h2>
+        <p>Odenses største og pinkeste rosé festival har 
+          eksisteret siden 2018 og formår hvert år at levere et 
+          brag af en festival fyldt med</p>
+        
+        <div class="symbol"><!--Symbol-->
+          <img src="../assets/pictures/champagne-glass.png" alt="icon af glas der skåler" />
+          <p>Underholdning</p>
+        </div>
+        <div class="symbol"><!--Symbol-->
+          <img src="../assets/pictures/speech-bubbles-comment-option.png" alt="icon af talebobler" />
+          <p>Socialisering & god stemning</p>
+        </div>
+        <div class="symbol"><!--Symbol-->
+          <img src="../assets/pictures/fork-and-knife.png" alt="icon af kniv og gafler" />
+          <p>Lækker mad & Iskold Rosé</p>
+        </div>
+        <div class="symbol"><!--Symbol-->
+          <img src="../assets/pictures/music-player.png" alt="icon af en node" />
+          <p>Efterfest med DJ</p>
+        </div>
 
-      <p>Billetten til festivalen koster 499 kr., hvilket 
-        inkluderer 15 slags rosévine fra forskellige 
-        forhandlere, en stemningsfuld festivalplads. 
-        Derudover får du dit helt eget indgraverede Riedel 
-        “Vinum Extreme Rose”-glas, så dine smagninger har 
-        de bedste forudsætninger.</p>
-      <div class="center">
-      <img src="../assets/pictures/billet.png" class="billet" alt="Ilustration af et par billeter til Rosé Festival Odense" />
+        <p>Billetten til festivalen koster 499 kr., hvilket 
+          inkluderer 15 slags rosévine fra forskellige 
+          forhandlere, en stemningsfuld festivalplads. 
+          Derudover får du dit helt eget indgraverede Riedel 
+          “Vinum Extreme Rose”-glas, så dine smagninger har 
+          de bedste forudsætninger.
+        </p>
       </div>
-      <div class="btn blue">KØB BILLET</div>
+      <div class="welcome_rightalign">
+        <div class="center">
+        <img src="../assets/pictures/billet.png" class="billet" alt="Ilustration af et par billeter til Rosé Festival Odense" />
+        </div>
+        <div class="btn blue">KØB BILLET</div>
+      </div>
     </section>
 
     <section class="pinkbackground">
@@ -76,3 +78,29 @@ import Vinudstillere from '../components/Vinudstillere.vue';
     </section>
   </main>
 </template>
+
+<style scoped>
+  .welcome_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media only screen and (min-width: 960px) { 
+
+    .welcome_container {
+      flex-direction: row;
+      align-items: center;
+      margin-left: 85px;
+    }
+
+    .welcome_leftalign {
+      width: 50%;
+    }
+
+    .welcome_rightalign {
+      width: 50%;
+      justify-content: flex-end;
+  }
+}
+
+</style>
