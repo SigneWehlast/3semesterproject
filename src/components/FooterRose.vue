@@ -43,7 +43,6 @@
                 <h2></h2>
             </Popup>
         </div>
-        <div class="footer_flexcontainer">
             <div class="footer_info">
                 <p>Rosévinfestival.dk ApS</p>
                 <p>CVR-nr. 29124939</p>
@@ -58,6 +57,5 @@
                 <p>Ofte stillede spørgsmål</p>
                 <p>Find vej</p>
             </div>
-        </div>
     </footer>
     </template>
