@@ -155,6 +155,46 @@ a {
   width: 80%;
 }
 
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding-bottom: 20px; 
+}
+
+.program_box {
+  display: flex;
+  border: 1px solid;
+  margin: 10px;
+  width: 80%;
+  height: auto;
+}
+
+.content_p {
+  font-size: 14px;
+  color: #2D3142;
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: 15px;
+}
+
+.content_container {
+  flex: 1;
+  text-align: left;
+}
+
+.image_container {
+  width: 25%; 
+  height: auto; 
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.program_image {
+  width: 100%;
+  height: 100%;
+}
+
 /*Tablet*/
 @media screen and (min-width: 601px) {
   h1 {
@@ -232,4 +272,34 @@ a {
     height: 40px;
     font-size: 17px;
   }
+
+  /* Program */
+
+
+  .container_distance {
+    display: flex;
+    justify-content: center;
+  }
+  
+   .program_box {
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+    }
+  
+    .container {
+      flex-direction: row;
+      width: 80%;
+    }
+  
+    .content_container {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+    }
+    .image_container{
+      width: 100%;
+    }
+
 }

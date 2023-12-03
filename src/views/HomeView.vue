@@ -58,7 +58,7 @@ import Vinudstillere from '../components/Vinudstillere.vue';
       <div class="btn pink">PROGRAM</div>
     </section>
     <section>
-      <h2>BLIV EN DEL AF FÆLLESSKABET</h2>
+      <h2>BLIV EN DEL AF DANMARKS STØRSTE ROSÈ FÆLLESSKAB</h2>
       <p>Vi glæder os utroligt meget til at fejre denne fantastiske
         dag sammen med alle jer roséelskere.
       </p>
