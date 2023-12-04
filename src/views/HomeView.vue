@@ -1,6 +1,7 @@
 <script setup>
 import Program2024 from '../components/program2024.vue';
 import Vinudstillere from '../components/Vinudstillere.vue';
+import HeaderRose from '../components/HeaderRose.vue';
 
 const udforskForsideScroll = () => {
   document.getElementById("forside_scroll").scrollIntoView({ behavior: "smooth" });
@@ -8,6 +9,7 @@ const udforskForsideScroll = () => {
 </script>
 
 <template>
+  <HeaderRose />
   <main>
     <section>
       <div class="hero_forside">
