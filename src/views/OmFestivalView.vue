@@ -8,6 +8,11 @@ import Historie from '../components/Historie.vue';
 <template>
   <main>
     <h2>OM ROSÉ FESTIVAL ODENSE</h2>
+    <div class="center">
+          <video class="hero_movie" controls>
+            <source src="../assets/videos/rosefestivalodense_headvideo.mp4" type="video/mp4">
+          </video>
+        </div>
   </main>
   <section class="pinkbackground">
     <h2>LÆR MERE OM FESTIVALEN</h2>
