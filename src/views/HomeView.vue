@@ -1,4 +1,8 @@
 <script setup>
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+
+// Import Swiper styles
+import 'swiper/css';
 
 import Program2024 from '../components/program2024.vue';
 import Vinudstillere from '../components/Vinudstillere.vue';

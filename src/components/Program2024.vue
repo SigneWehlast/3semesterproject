@@ -3,8 +3,6 @@ import{
   onMounted,
   ref
 } from 'vue';
-/*const props = defineProps ([ 'programData' ]);*/
-/*const props = defineProps([ 'time', 'description', 'image' ])*/
 
 const fProgram = ref({});
 const error = ref(null);
