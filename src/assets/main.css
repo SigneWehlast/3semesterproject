@@ -195,6 +195,10 @@ a {
   height: 100%;
 }
 
+.udforsk_btn {
+  margin-bottom: 20px;
+}
+
 /*Tablet*/
 @media screen and (min-width: 601px) {
   h1 {
