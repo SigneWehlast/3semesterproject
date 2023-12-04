@@ -54,7 +54,7 @@ const aboutUsScroll = () => {
   display: flex;
   flex-direction: column; 
   align-items: center;
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
 }
 
 .laerMere_box {

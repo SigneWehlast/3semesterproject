@@ -2,33 +2,44 @@
 import Program2024 from '../components/program2024.vue';
 import Vinudstillere from '../components/Vinudstillere.vue';
 
+const udforskForsideScroll = () => {
+  document.getElementById("forside_scroll").scrollIntoView({ behavior: "smooth" });
+    };
 </script>
 
 <template>
   <main>
     <section>
-      <!--hero-->
+      <div class="hero_forside">
+        <h1>ROSÉ FESTIVAL ODENSE</h1>
+        <div class="flex_hero">
+          <p class="p_hero">25. maj 2024</p>
+          <p class="p_hero">Ansgar Anlæg</p>
+        </div>
+        <div @click="udforskForsideScroll()" class="btn pink">UDFORSK</div>
+        <!--hero-->
+      </div>
     </section>
     <section class="welcome_container">
       <div class="welcome_leftalign">
-        <h2 class="h2_leftalign">VELKOMMEN TIL ROSÉ FESTIVAL ODENSE</h2>
+        <h2 id="forside_scroll" class="h2_leftalign">VELKOMMEN TIL ROSÉ FESTIVAL ODENSE</h2>
         <p>Odenses største og pinkeste rosé festival har 
           eksisteret siden 2018 og formår hvert år at levere et 
           brag af en festival fyldt med</p>
         
-        <div class="symbol"><!--Symbol-->
+        <div class="symbol">
           <img src="../assets/pictures/champagne-glass.png" alt="icon af glas der skåler" />
           <p>Underholdning</p>
         </div>
-        <div class="symbol"><!--Symbol-->
+        <div class="symbol">
           <img src="../assets/pictures/speech-bubbles-comment-option.png" alt="icon af talebobler" />
           <p>Socialisering & god stemning</p>
         </div>
-        <div class="symbol"><!--Symbol-->
+        <div class="symbol">
           <img src="../assets/pictures/fork-and-knife.png" alt="icon af kniv og gafler" />
           <p>Lækker mad & Iskold Rosé</p>
         </div>
-        <div class="symbol"><!--Symbol-->
+        <div class="symbol">
           <img src="../assets/pictures/music-player.png" alt="icon af en node" />
           <p>Efterfest med DJ</p>
         </div>
@@ -84,6 +95,15 @@ import Vinudstillere from '../components/Vinudstillere.vue';
   .welcome_container {
     display: flex;
     flex-direction: column;
+  }
+  .p_hero {
+    color: white;
+  }
+
+  .flex_hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   @media only screen and (min-width: 960px) { 

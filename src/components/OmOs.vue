@@ -78,7 +78,7 @@ const getOmOsSection = () => {
     .omOs_container {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin: 20px;
         align-items: self-start;
     }

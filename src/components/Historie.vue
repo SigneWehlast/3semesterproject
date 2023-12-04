@@ -77,4 +77,7 @@ const getHistorieSection = () => {
         width: 350px;
     }
     }
+
+
+
 </style>
