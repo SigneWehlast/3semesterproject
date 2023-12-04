@@ -25,7 +25,7 @@ const aboutScroll = () => {
     <LaerMere />
   </section>
   <section>
-    <h2>OM OS</h2>
+    <h2 id="aboutUs_scroll">OM OS</h2>
     <OmOS />
   </section>
   <section class="pinkbackground">

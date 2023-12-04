@@ -26,6 +26,10 @@ const getLaerMere = () => {
   error.value = 'Kunne ikke hente data';
   });
 };
+
+const aboutUsScroll = () => {
+  document.getElementById("aboutUs_scroll").scrollIntoView({ behavior: "smooth" });
+    };
 </script>
 
 <template>
@@ -35,7 +39,7 @@ const getLaerMere = () => {
         <div class="content_container">
           <h3 class="laerMere_h3">{{ laerMereSection.title }}</h3>
           <p class="laerMere_p">{{ laerMereSection.description }}</p>
-            <div class="btn pink laesmere_btn">LÆS MERE</div>
+            <div @click="aboutUsScroll()" class="btn pink laesmere_btn">LÆS MERE</div>
         </div>
         <div class="image_container">
           <img :src="laerMereSection.image" alt="Lær mere billede" class="laerMere_image" />

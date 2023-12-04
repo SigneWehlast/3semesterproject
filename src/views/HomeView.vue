@@ -54,7 +54,9 @@ import Vinudstillere from '../components/Vinudstillere.vue';
       <div>
         <Program2024 />
       </div>
-      <div class="btn pink">PROGRAM</div>
+      <a href="/#program">
+        <div class="btn pink">PROGRAM</div>
+      </a>
     </section>
     <section>
       <h2>BLIV EN DEL AF DANMARKS STØRSTE ROSÈ FÆLLESSKAB</h2>
