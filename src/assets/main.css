@@ -1,4 +1,8 @@
 /*Mobil*/
+:root {
+  color-scheme: light dark;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +10,7 @@
 
 body {
   background-color: #FFF4F2;
+  font-family: system-ui;
 }
 
 section {
@@ -33,6 +38,7 @@ footer {
 .footer_follow {
   width: 100%;
 }
+
 
 h1 {
   font-size: 25px;
@@ -253,7 +259,7 @@ a {
 @media only screen and (min-width: 960px) {
 
   h1 {
-    font-size: 35px;
+    font-size: 50px;
   }
 
   h2 {

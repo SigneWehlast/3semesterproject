@@ -18,8 +18,8 @@ const udforskForsideScroll = () => {
           <p class="p_hero">25. maj 2024</p>
           <p class="p_hero">Ansgar Anlæg</p>
         </div>
-        <div @click="udforskForsideScroll()" class="btn pink">UDFORSK</div>
-        <!--hero-->
+        <div @click="udforskForsideScroll()" class="btn pink udforsk_forside">UDFORSK</div>
+        <i @click="udforskForsideScroll()" class="fa-solid fa-angle-down fa-xl" style="color: #e05254;"></i>
       </div>
     </section>
     <section class="welcome_container">
@@ -30,19 +30,19 @@ const udforskForsideScroll = () => {
           brag af en festival fyldt med</p>
         
         <div class="symbol">
-          <img src="../assets/pictures/champagne-glass.png" alt="icon af glas der skåler" />
+          <i class="fa-solid fa-champagne-glasses fa-xl" style="color: #e05254;"></i>
           <p>Underholdning</p>
         </div>
         <div class="symbol">
-          <img src="../assets/pictures/speech-bubbles-comment-option.png" alt="icon af talebobler" />
+          <i class="fa-solid fa-comments fa-xl" style="color: #e05254;"></i>
           <p>Socialisering & god stemning</p>
         </div>
         <div class="symbol">
-          <img src="../assets/pictures/fork-and-knife.png" alt="icon af kniv og gafler" />
-          <p>Lækker mad & Iskold Rosé</p>
+          <i class="fa-solid fa-utensils fa-xl" style="color: #e05254;"></i>
+          <p>Lækkert mad & Iskold Rosé</p>
         </div>
         <div class="symbol">
-          <img src="../assets/pictures/music-player.png" alt="icon af en node" />
+          <i class="fa-solid fa-music fa-xl" style="color: #e05254;"></i>
           <p>Efterfest med DJ</p>
         </div>
 
@@ -98,14 +98,39 @@ const udforskForsideScroll = () => {
     display: flex;
     flex-direction: column;
   }
+  .hero_forside {
+  background-image: url("../assets/pictures/heroshot.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
   .p_hero {
     color: white;
   }
 
+  h1{
+    margin-top: 180px;
+    margin-bottom: 20px;
+  }
   .flex_hero {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .udforsk_forside {
+    margin-top: 70px;
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 601px) {
+    .udforsk_forside {
+    margin-top: 60px;
+    margin-bottom: 15px;
+  }
   }
 
   @media only screen and (min-width: 960px) { 
@@ -123,6 +148,20 @@ const udforskForsideScroll = () => {
     .welcome_rightalign {
       width: 50%;
       justify-content: flex-end;
+  }
+
+  .hero_forside {
+    height: 550px;
+  }
+
+  h1 {
+    margin-top: 260px;
+    margin-bottom: 35px;
+  }
+
+  .udforsk_forside {
+    margin-top: 100px;
+    margin-bottom: 15px;
   }
 }
 

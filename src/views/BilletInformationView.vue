@@ -7,22 +7,24 @@
     <div class="welcome_leftalign">
       
       <p>Billetten koster 499kr. og inkluderer:</p>
-      <div class="symbol"><!--symbol-->
+      <div class="symbol">
+        <i class="fa-solid fa-wine-bottle fa-xl" style="color: #e05254;"></i>
         <p>15 slags rosévine fra forskellige forhandlere</p>
       </div>
-      <div class="symbol"><!--symbol-->
+      <div class="symbol">
+        <i class="fa-solid fa-wine-glass fa-xl" style="color: #e05254;"></i>
         <p>Dit helt eget indgraverede Riedel “Vinum Extreme Rose”-glas</p>
       </div>
       <div class="symbol">          
-        <img src="../assets/pictures/speech-bubbles-comment-option.png" alt="icon af talebobler" />
+        <i class="fa-solid fa-comments fa-xl" style="color: #e05254;"></i>
         <p>Underholdning & god stemning</p>
       </div>
-      <div class="symbol"><!--symbol-->
-        <img src="../assets/pictures/fork-and-knife.png" alt="icon af kniv og gafler" />
-        <p>Lækker mad & Iskold Rosé</p>
+      <div class="symbol">
+        <i class="fa-solid fa-utensils fa-xl" style="color: #e05254;"></i>
+        <p>Lækkert mad & Iskold Rosé</p>
       </div>
-      <div class="symbol"><!--symbol-->
-        <img src="../assets/pictures/music-player.png" alt="icon af en node" />
+      <div class="symbol">
+        <i class="fa-solid fa-music fa-xl" style="color: #e05254;"></i>
         <p>Efterfest med DJ</p>
       </div>
       <p>Et brag af en Rosé Festival afholdes den 
