@@ -85,8 +85,8 @@ export default{
               GALLERI
             </router-link>
           </li>
-          <div class="login-btn">
-            <router-link class="login-link" :to="{ name: '' }">Login</router-link>
+          <div class="btn-blue">
+            <router-link :to="{ name: '' }">KØB</router-link>
           </div>
         </ul>
             <div class="icon">
@@ -99,24 +99,13 @@ export default{
                     <li><router-link class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">OM FESTIVALEN</router-link></li>
                     <li><router-link class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">VINUDSTILLERE</router-link></li>
                     <li><router-link class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">MAD & DRIKKE</router-link></li>
-                    <div class="login-btn">
-                        <router-link class="login-link" :to="{ name: '' }">Login</router-link>
+                    <div class="btn-blue">
+                        <router-link :to="{ name: '' }">KØB</router-link>
                     </div>
                 </ul>
             </transition>
         </nav>
     </header>
- <!--- <header>
-    <div>
-      <nav>
-        <RouterLink to="/">Forside</RouterLink>
-        <RouterLink to="/program">Program</RouterLink>
-        <RouterLink to="/om">Om Festivalen</RouterLink>
-        <RouterLink to="/billet">Billetinformation</RouterLink>
-      </nav>
-    </div>
-  </header> -->
-
   <RouterView />
 </template>
 <style scoped>
@@ -164,10 +153,10 @@ header {
 	 list-style: none;
 }
  header nav .navigation .link:hover {
-	 border-color: #f3ae3d;
+	 border-color: #F8DCDB;
 }
  header nav .navigation .link.active {
-	 border-bottom: 1px solid #f3ae3d;
+	 border-bottom: 1px solid #F8DCDB;
 }
  header nav .navigation li {
 	 padding: 5px;
@@ -243,7 +232,7 @@ header {
 	 padding-top: 60px;
 	 top: 0;
 	 left: 0;
-   background-color: #f3ae3d;
+   background-color: #F8DCDB;
 }
  header .dropdown-nav .link {
 	 font-size: 16px;
@@ -255,7 +244,7 @@ header {
 	 list-style: none;
 }
  header .dropdown-nav .link:hover {
-	 border-color: #f3ae3d;
+	 border-color: #F8DCDB;
 }
  header .dropdown-nav li {
 	 padding: 16px;
@@ -278,7 +267,21 @@ header {
 	 display: flex;
 	 align-items: center;
 }
- @media (min-width: 1176px) {
+
+.btn-blue{
+  background-color: #2D3142;
+  height: 41px;
+  width: 115px;
+  margin: 20px;
+  border-radius: 7px;
+  color: #FFFFFF;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ @media (min-width: 1000px) {
 	 nav {
 		 max-width: 11760px;
 	}
