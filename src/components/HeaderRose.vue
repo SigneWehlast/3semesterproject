@@ -57,7 +57,7 @@ export default{
             <div class="dropdown-menu">
               <ul>
                 <li><router-link :to="{ name: '' }">OM FESTIVALEN</router-link></li>
-                <li><router-link :to="{ name: '' }">BILLETINFORMATION</router-link></li>
+                <li><router-link :to="{ name: 'billet' }">BILLETINFORMATION</router-link></li>
                 <li><router-link :to="{ name: '' }">MERCHANDISE</router-link></li>
                 <li><router-link :to="{ name: '' }">PRESSE</router-link></li>
                 <li><router-link :to="{ name: '' }">FAQ</router-link></li>
