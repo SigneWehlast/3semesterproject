@@ -128,8 +128,7 @@ header {
 	 margin: 0 auto;
 }
  header nav .branding {
-	 display: flex;
-	 align-items: center;
+
 	 z-index: 999;
 }
  header nav .navigation {
@@ -137,6 +136,7 @@ header {
 	 align-items: center;
 	 flex: 1;
 	 justify-content: flex-end;
+   color: #2D3142;
 }
  header nav .navigation .link {
 	 font-size: 14px;
@@ -224,7 +224,7 @@ header {
 	 position: fixed;
 	 align-items: center;
 	 width: 100%;
-	 height: 560px;
+	 height: 100%;
 	 padding-top: 60px;
 	 top: 0;
 	 left: 0;
@@ -238,9 +238,10 @@ header {
 	 text-decoration: none;
 	 font-weight: 500;
 	 list-style: none;
+   color: #2D3142;
 }
  header .dropdown-nav .link:hover {
-	 border-color: #F8DCDB;
+	 border-color: #2D3142;
 }
  header .dropdown-nav li {
 	 padding: 16px;
@@ -262,6 +263,10 @@ header {
  header .dropdown-nav .login-link .login-btn {
 	 display: flex;
 	 align-items: center;
+}
+
+.icon {
+  color: #2D3142;
 }
 
 .dropdown-menu {
