@@ -88,7 +88,7 @@ const udforskForsideScroll = () => {
         vinaktører på Odense Rosé Festival 2024.
       </p>
       <Vinudstillere />
-      <div class="btn pink">LÆS MERE</div>
+      <div class="btn pink">VINUDSTILLERE</div>
     </section>
   </main>
 </template>

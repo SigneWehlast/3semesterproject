@@ -41,7 +41,7 @@ export default{
       <nav>
         <div class="branding">
           <router-link to="/">
-            <img src="../assets/img/logo/logo.png" alt="">
+            <img src="../assets/pictures/logo.png" class="logo" alt="Rosé Festival Odenses logo">
           </router-link>
         </div>
         <ul v-show="!mobile" class="navigation">
@@ -116,7 +116,7 @@ header {
 	 top: 0;
 	 position: fixed;
 	 transition: 0.5s ease all;
-   background-color: pink;
+   background-color: #FFF;
 }
  header nav {
 	 position: relative;
@@ -132,10 +132,6 @@ header {
 	 align-items: center;
 	 z-index: 999;
 }
- header nav .branding img {
-	 width: 180px;
-	 transition: 0.5s ease all;
-}
  header nav .navigation {
 	 display: flex;
 	 align-items: center;
@@ -149,7 +145,7 @@ header {
 	 border-bottom: 1px solid transparent;
 	 text-decoration: none;
 	 font-weight: 500;
-	 color: white;
+	 color: #2D3142;
 	 list-style: none;
 }
  header nav .navigation .link:hover {
@@ -183,10 +179,10 @@ header {
 }
  header nav .navigation li .dropdown-menu ul li a {
 	 text-decoration: none;
-	 font-weight: bold;
 }
  header nav .navigation li:hover .dropdown-menu {
-	 display: block;
+	 display: flex;
+   justify-content: space-around;
 }
  header nav .navigation a {
 	 list-style: none;
@@ -268,6 +264,10 @@ header {
 	 align-items: center;
 }
 
+.dropdown-menu {
+  background-color: #FFF;
+}
+
 .btn-blue{
   background-color: #2D3142;
   height: 41px;
@@ -281,6 +281,11 @@ header {
   align-items: center;
 }
 
+.logo {
+  width: 40%;
+  padding: 0%;
+}
+
  @media (min-width: 1000px) {
 	 nav {
 		 max-width: 11760px;
@@ -288,6 +293,10 @@ header {
 }
  li::marker {
 	 content: none;
+}
+
+.logo {
+  width: 60%;
 }
  
 </style>
