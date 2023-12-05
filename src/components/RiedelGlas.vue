@@ -8,19 +8,19 @@
 
    <section class="flex_container">
         <div class="pink_box">
-            <div><!--symbol--></div>
+            <i class="wine_symbol fa-solid fa-wine-glass fa-2xl" style="color: #e05254;"></i>
             <p class="glas_p">Et diamantformet roséglas som gør det til det perfekte valg til at fuldende smagsoplevelsen</p>
         </div>
         <div class="pink_box">
-            <div><!--symbol--></div>
+            <i class="wine_symbol fa-solid fa-wine-glass fa-2xl" style="color: #e05254;"></i>
             <p class="glas_p">Formen på glasset dirigerer strømmen af vin til spidsen af tungen, som introducerer vinens fulde smagsoplevelse</p>
         </div>
         <div class="pink_box">
-            <div><!--symbol--></div>
+            <i class="wine_symbol fa-solid fa-wine-glass fa-2xl" style="color: #e05254;"></i>
             <p class="glas_p">Designet på glasset giver vinen rig mulighed for at få luft og udvikle velsmagende aromaer</p>
         </div>
         <div class="pink_box">
-            <div><!--symbol--></div>
+            <i class="wine_symbol fa-solid fa-wine-glass fa-2xl" style="color: #e05254;"></i>
             <p class="glas_p">Glassets runding og indsnævring i toppen skaber en stor fordampningsflade, der intensiverer vinens aroma</p>
         </div>
     </section>
@@ -40,14 +40,16 @@
         flex-flow: row wrap;
         width: 100%;
         justify-content: center;
-
     }
 
     .pink_box {
         background-color: #FCE9E6;
         width: 150px;
-        height: 250px;
+        height: 265px;
         margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .glas_p {
@@ -58,10 +60,20 @@
         margin: 30px auto 0 20px;
     }
 
+    .wine_symbol {
+        margin: 30px 0 20px 0;
+    }
+
+    @media screen and (min-width: 601px) {
+        .pink_box {
+            height: 295px;
+        }
+    }
+
     @media only screen and (min-width: 960px) {
         .pink_box {
-            height: 300px;
-            width: 200px;
+            height: 220px;
+            width: 250px;
         }
     }
 </style>

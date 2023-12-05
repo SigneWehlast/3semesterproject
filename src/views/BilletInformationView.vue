@@ -49,8 +49,9 @@
 
   h2 {
     text-align: left;
-    margin: 20px 0 20px 20px;
+    margin: 130px 0 20px 20px;
   }
+
 
   @media only screen and (min-width: 960px) { 
 

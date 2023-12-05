@@ -12,7 +12,7 @@ const aboutScroll = () => {
 
 <template>
   <main>
-    <h2>OM ROSÉ FESTIVAL ODENSE</h2>
+    <h2 class="h2_margin">OM ROSÉ FESTIVAL ODENSE</h2>
     <div class="center">
           <video class="hero_movie" controls>
             <source src="../assets/videos/rosefestivalodense_headvideo.mp4" type="video/mp4">
@@ -37,3 +37,9 @@ const aboutScroll = () => {
     <RiedelGlas />
   </section>
 </template>
+
+<style scoped>
+  .h2_margin {
+    margin-top: 120px;
+  }
+</style>

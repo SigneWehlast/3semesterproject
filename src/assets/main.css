@@ -39,6 +39,14 @@ footer {
   width: 100%;
 }
 
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.social_symbol {
+  margin: 20px 7px 20px 7px;
+}
 
 h1 {
   font-size: 25px;
@@ -240,6 +248,22 @@ a {
     order: 3;
   }
 
+  .p_centeralign {
+    margin: 20px 0 5px 0;
+  }
+
+  .footer_info > p {
+    line-height: 40px;
+  }
+
+  .footer_find > p {
+    line-height: 40px;
+  }
+
+  .social_symbol {
+    margin: 30px 7px 0px 7px;
+  }
+
   .btn {
     height: 49px;
     width: 152px;
@@ -269,6 +293,22 @@ a {
 
   p {
     font-size: 20px;
+  }
+
+  .p_centeralign  {
+    margin-top: 20px;
+  }
+
+  .footer_info > p {
+    line-height: 50px;
+  }
+
+  .footer_find > p {
+    line-height: 50px;
+  }
+
+  .social_symbol {
+    margin: 30px 10px 20px 10px;
   }
 
   .btn {

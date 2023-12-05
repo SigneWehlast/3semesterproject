@@ -31,7 +31,10 @@
     <footer class="pinkbackground">
         <div class="footer_follow">
             <p class="p_centeralign bold">Følg os</p>
-            <!--symboler-->
+            <div class="socials">
+                <i class="social_symbol fa-brands fa-facebook fa-xl" style="color: #e05254;"></i>
+                <i class="social_symbol fa-brands fa-instagram fa-xl" style="color: #e05254;"></i>
+            </div>
             <p class="p_centeralign">Tilmeld vores nyhedsbrev</p>
             <form class="submitform" v-on:submit.prevent="onSubmitForm">
                 <input class="inputform" type="text" v-model="name" placeholder="Navn" />
