@@ -51,12 +51,12 @@ export default{
             </router-link>
           </li>
           <li>
-            <router-link class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">OM FESTIVALEN
+            <router-link class="link" :to="{ name:'om' }" :class="{ 'active': $route.name === '' }">OM FESTIVALEN
                 <i class="fa-solid fa-chevron-down dropdown-ikon"></i>
             </router-link>
             <div class="dropdown-menu">
               <ul>
-                <li><router-link :to="{ name: '' }">OM FESTIVALEN</router-link></li>
+                <li><router-link :to="{ name: 'om' }">OM FESTIVALEN</router-link></li>
                 <li><router-link :to="{ name: 'billet' }">BILLETINFORMATION</router-link></li>
                 <li><router-link :to="{ name: '' }">MERCHANDISE</router-link></li>
                 <li><router-link :to="{ name: '' }">PRESSE</router-link></li>
