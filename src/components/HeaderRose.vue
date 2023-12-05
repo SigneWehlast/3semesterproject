@@ -41,7 +41,7 @@ export default{
       <nav>
         <div class="branding">
           <router-link to="/">
-            <img src="../assets/img/logo/logo.png" alt="Logo af DKV">
+            <img src="../assets/img/logo/logo.png" alt="">
           </router-link>
         </div>
         <ul v-show="!mobile" class="navigation">
@@ -51,7 +51,7 @@ export default{
             </router-link>
           </li>
           <li>
-            <router-link class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">OM PROGRAM
+            <router-link class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">OM FESTIVALEN
                 <i class="fa-solid fa-chevron-down dropdown-ikon"></i>
             </router-link>
             <div class="dropdown-menu">
@@ -94,7 +94,7 @@ export default{
             </div>
             <transition name="mobile-nav">
                 <ul v-show="mobileNav" class="dropdown-nav">
-                    <li><router-link class="link" :to="{ name:'' }">Arbejdsgivere</router-link></li>
+                    <li><router-link class="link" :to="{ name:'' }"></router-link></li>
                     <li><router-link class="link" :to="{ name:'program' }" :class="{ 'active': $route.name === 'program' }">PROGRAM</router-link></li>
                     <li><router-link class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">OM FESTIVALEN</router-link></li>
                     <li><router-link class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">VINUDSTILLERE</router-link></li>
