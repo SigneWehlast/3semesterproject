@@ -49,7 +49,7 @@
 
   h2 {
     text-align: left;
-    margin: 130px 0 20px 20px;
+    margin: 120px 0 20px 20px;
   }
 
 

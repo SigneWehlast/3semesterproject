@@ -18,7 +18,7 @@ section {
 }
 
 .pinkbackground {
-  background-color: #F8DCDB;
+  background-color: #FCE9E6;
   padding-bottom: 30px;
   width: 100%;
 }
@@ -33,6 +33,7 @@ footer {
   margin-top: 20px;
   align-items: center;
   justify-content: center;
+  background-color: #FBDFDE;
 }
 
 .footer_follow {
@@ -87,6 +88,7 @@ p {
 
 .p_centeralign {
   text-align: center;
+  margin-top: 10px;
 }
 
 .btn {
@@ -214,6 +216,10 @@ a {
   margin-bottom: 20px;
 }
 
+.margin_p {
+  margin: 0 0 20px 20px;
+}
+
 /*Tablet*/
 @media screen and (min-width: 601px) {
   h1 {
@@ -287,12 +293,12 @@ a {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 54px;
   }
 
   p {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .p_centeralign  {
@@ -350,6 +356,14 @@ a {
     }
     .image_container{
       width: 100%;
+    }
+
+    .margin_p {
+      margin-left: 85px;
+    }
+
+    .h2_leftalign {
+      margin-left: 85px;
     }
 
 }

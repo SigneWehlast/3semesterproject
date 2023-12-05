@@ -72,7 +72,7 @@
 
     @media only screen and (min-width: 960px) {
         .pink_box {
-            height: 220px;
+            height: 190px;
             width: 250px;
         }
     }

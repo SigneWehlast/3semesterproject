@@ -150,6 +150,12 @@ const aboutUsScroll = () => {
         margin: 0;
         
     }
+
+    .laerMere_p {
+      font-size: 17px;
+      line-height: 25px;
+    }
+
 }
 
 </style>

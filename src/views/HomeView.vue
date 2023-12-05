@@ -24,7 +24,7 @@ const udforskForsideScroll = () => {
     </section>
     <section class="welcome_container">
       <div class="welcome_leftalign">
-        <h2 id="forside_scroll" class="h2_leftalign">VELKOMMEN TIL ROSÉ FESTIVAL ODENSE</h2>
+        <h2 id="forside_scroll" class="h2_velkommen">VELKOMMEN TIL ROSÉ FESTIVAL ODENSE</h2>
         <p>Odenses største og pinkeste rosé festival har 
           eksisteret siden 2018 og formår hvert år at levere et 
           brag af en festival fyldt med</p>
@@ -72,8 +72,8 @@ const udforskForsideScroll = () => {
       </a>
     </section>
     <section>
-      <h2>BLIV EN DEL AF DANMARKS STØRSTE ROSÈ FÆLLESSKAB</h2>
-      <p>Vi glæder os utroligt meget til at fejre denne fantastiske
+      <h2 class="h2_leftalign">BLIV EN DEL AF DANMARKS STØRSTE ROSÈ FÆLLESSKAB</h2>
+      <p class="margin_p">Vi glæder os utroligt meget til at fejre denne fantastiske
         dag sammen med alle jer roséelskere.
       </p>
         <div class="center">
@@ -84,7 +84,7 @@ const udforskForsideScroll = () => {
     </section>
     <section class="pinkbackground">
       <h2>MØD VORES VINUDSTILLERE</h2>
-      <p>Vi er stolte af at kunne præsentere Danmarks friskeste
+      <p class="margin_p center_p">Vi er stolte af at kunne præsentere Danmarks friskeste
         vinaktører på Odense Rosé Festival 2024.
       </p>
       <Vinudstillere />
@@ -126,6 +126,10 @@ const udforskForsideScroll = () => {
     margin-top: 70px;
     margin-bottom: 15px;
   }
+
+  .h2_velkommen {
+    margin: -30px 0 20px 0;
+  }
   @media screen and (min-width: 601px) {
     .udforsk_forside {
     margin-top: 60px;
@@ -147,7 +151,6 @@ const udforskForsideScroll = () => {
 
     .welcome_rightalign {
       width: 50%;
-      justify-content: flex-end;
   }
 
   .hero_forside {
@@ -162,6 +165,14 @@ const udforskForsideScroll = () => {
   .udforsk_forside {
     margin-top: 100px;
     margin-bottom: 15px;
+  }
+
+  .h2_velkommen {
+    margin-left: -35px;
+  }
+
+  .center_p {
+    text-align: center;
   }
 }
 

@@ -30,22 +30,31 @@ const getHistorieSection = () => {
 
 </script>
 <template>
-  <div class="historie_container">
-    <div v-for="(historieSection, index) in historie" :key="index" class="historie_box">
-        <div class="">
-            <p class="historie_description">{{ historieSection.description }}</p>
-        </div>  
-        <div class="">
-            <img :src="historieSection.image" alt="historie billede" class="historie_image" />
-        </div>
-        <div class="">
-            <p class="historie_title">{{ historieSection.title }}</p>
-        </div> 
+  <section>
+    <div class="historie_container">
+      <div v-for="(historieSection, index) in historie" :key="index" class="historie_box">
+          <div class="">
+              <p class="historie_description">{{ historieSection.description }}</p>
+          </div>  
+          <div class="">
+              <img :src="historieSection.image" alt="historie billede" class="historie_image" />
+          </div>
+          <div class="">
+              <p class="historie_title">{{ historieSection.title }}</p>
+          </div> 
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>
+
+    section {
+      background-image: url("../assets/pictures/timeline.png");
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: auto;
+    }
     .historie_container {
         display: flex;
         flex-direction: column;
@@ -67,6 +76,10 @@ const getHistorieSection = () => {
         text-align: center;
         /*margin-left: -20px;*/
     }
+    
+    img {
+      margin-top: 10px;
+    }
 
     @media screen and (min-width: 601px) {
         .historie_image {
@@ -75,7 +88,22 @@ const getHistorieSection = () => {
     }
         .historie_box {
         width: 350px;
+        margin-left: 50px;
     }
+
+        section {
+        background-image: url("../assets/pictures/timeline_tablet.png");
+        background-size: auto 100%;
+    }
+    }
+
+    @media only screen and (min-width: 960px) {
+      section {
+        background-image: url("../assets/pictures/bottle_timeline.png");
+        background-position: center;
+        background-size: auto 100%;
+    }
+
     }
 
 
