@@ -111,7 +111,6 @@
   
   .modal_body {
     padding: 10px;
-    text-align: justify;
   }
 
   label {
@@ -159,7 +158,7 @@
 }
 
 .feedback p {
-    margin: 5px;
+    line-height: 25px;
   }
   
   </style>
