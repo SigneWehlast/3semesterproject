@@ -1,6 +1,6 @@
 <script setup>
     import { ref } from 'vue';
-    import Popup from './Popup.vue';
+    import Modal from './Modal.vue';
 
     const emit = defineEmits(['submitted']);
 
@@ -40,11 +40,9 @@
                 <input class="inputform" type="text" v-model="name" placeholder="Navn" />
                 <input class="inputform" type="email" v-model="email" placeholder="Email" />
             
-                <button type="submit" class="btn pink btn_form">TILMELD</button>
+                <button @click="openModal()" type="submit" class="btn pink btn_form">TILMELD</button>
+                <Modal />
             </form>
-            <Popup>
-                <h2></h2>
-            </Popup>
         </div>
             <div class="footer_info">
                 <p>Rosévinfestival.dk ApS</p>
@@ -62,3 +60,22 @@
             </div>
     </footer>
     </template>
+
+    <script>
+    export default {
+        components: {
+    Modal,
+  },
+  methods: {
+    openModal() {
+      const modal = document.getElementById("modal");
+      modal.classList.add("show");
+    },
+    setActiveTab(tabName) {
+      this.activeTab = tabName;
+    },
+  }
+}
+</script>
+
+    

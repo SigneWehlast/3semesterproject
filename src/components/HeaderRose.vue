@@ -94,11 +94,11 @@ export default{
             </div>
             <transition name="mobile-nav">
                 <ul v-show="mobileNav" class="dropdown-nav">
-                    <li><router-link class="link" :to="{ name:'' }"></router-link></li>
-                    <li><router-link class="link" :to="{ name:'program' }" :class="{ 'active': $route.name === 'program' }">PROGRAM</router-link></li>
-                    <li><router-link class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">OM FESTIVALEN</router-link></li>
-                    <li><router-link class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">VINUDSTILLERE</router-link></li>
-                    <li><router-link class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">MAD & DRIKKE</router-link></li>
+                    <li><router-link  class="link" :to="{ name:'' }"></router-link></li>
+                    <li><router-link @click="hide" class="link" :to="{ name:'program' }" :class="{ 'active': $route.name === 'program' }">PROGRAM</router-link></li>
+                    <li><router-link @click="hide" class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">OM FESTIVALEN</router-link></li>
+                    <li><router-link @click="hide" class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">VINUDSTILLERE</router-link></li>
+                    <li><router-link @click="hide" class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">MAD & DRIKKE</router-link></li>
                     <div class="btn-blue">
                         <router-link :to="{ name: '' }">KØB</router-link>
                     </div>
@@ -267,6 +267,10 @@ header {
 
 .icon {
   color: #2D3142;
+}
+
+.dropdown-ikon {
+  font-size: 15px;
 }
 
 .dropdown-menu {
