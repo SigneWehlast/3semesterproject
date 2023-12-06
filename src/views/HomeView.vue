@@ -20,7 +20,8 @@ const udforskForsideScroll = () => {
         </div>
         <div @click="udforskForsideScroll()" class="btn pink udforsk_forside">UDFORSK</div>
         <i @click="udforskForsideScroll()" class="fa-solid fa-angle-down fa-xl" style="color: #e05254;"></i>
-      </div>
+      </div>            
+      <div class="btn_win pink">VIND 2 BILLETTER</div>
     </section>
     <section class="welcome_container_home">
       <div class="welcome_leftalign_home">
