@@ -38,14 +38,3 @@ const aboutScroll = () => {
     <RiedelGlas />
   </section>
 </template>
-
-<style scoped>
-  .h2_margin {
-    margin-top: 120px;
-  }
-  .om_arrow {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-</style>

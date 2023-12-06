@@ -2,7 +2,7 @@
 </script>
 
 <template>
-<h2>BILLETINFORMATION</h2>
+<h2 class="h2_billet">BILLETINFORMATION</h2>
   <main class="welcome_container">
     <div class="welcome_leftalign">
       
@@ -39,44 +39,3 @@
     </div>
   </main>
 </template>
-
-<style scoped>
-  .welcome_container {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
-  }
-
-  h2 {
-    text-align: left;
-    margin: 120px 0 20px 20px;
-  }
-
-
-  @media only screen and (min-width: 960px) { 
-
-    .welcome_container {
-      flex-direction: row;
-      align-items: center;
-      margin-left: 85px;
-      margin-bottom: 75px;
-    }
-
-    .welcome_leftalign {
-      width: 50%;
-    }
-
-    .welcome_rightalign {
-      width: 50%;
-      justify-content: flex-end;
-    }
-
-    h2 {
-    margin-left: 105px;
-    }
-
-    .billet {
-      margin-top: -75px;
-    }
-}
-</style>

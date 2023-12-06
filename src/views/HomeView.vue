@@ -13,7 +13,7 @@ const udforskForsideScroll = () => {
   <main>
     <section>
       <div class="hero_forside">
-        <h1>ROSÉ FESTIVAL ODENSE</h1>
+        <h1 class="h1_home">ROSÉ FESTIVAL ODENSE</h1>
         <div class="flex_hero">
           <p class="p_hero">25. maj 2024</p>
           <p class="p_hero">Ansgar Anlæg</p>
@@ -22,8 +22,8 @@ const udforskForsideScroll = () => {
         <i @click="udforskForsideScroll()" class="fa-solid fa-angle-down fa-xl" style="color: #e05254;"></i>
       </div>
     </section>
-    <section class="welcome_container">
-      <div class="welcome_leftalign">
+    <section class="welcome_container_home">
+      <div class="welcome_leftalign_home">
         <h2 id="forside_scroll" class="h2_velkommen">VELKOMMEN TIL ROSÉ FESTIVAL ODENSE</h2>
         <p>Odenses største og pinkeste rosé festival har 
           eksisteret siden 2018 og formår hvert år at levere et 
@@ -54,7 +54,7 @@ const udforskForsideScroll = () => {
           de bedste forudsætninger.
         </p>
       </div>
-      <div class="welcome_rightalign">
+      <div class="welcome_rightalign_home">
         <div class="center">
         <img src="../assets/pictures/billet.png" class="billet" alt="Ilustration af et par billeter til Rosé Festival Odense" />
         </div>
@@ -92,88 +92,3 @@ const udforskForsideScroll = () => {
     </section>
   </main>
 </template>
-
-<style scoped>
-  .welcome_container {
-    display: flex;
-    flex-direction: column;
-  }
-  .hero_forside {
-  background-image: url("../assets/pictures/heroshot.jpg");
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-  .p_hero {
-    color: white;
-  }
-
-  h1{
-    margin-top: 180px;
-    margin-bottom: 20px;
-  }
-  .flex_hero {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .udforsk_forside {
-    margin-top: 70px;
-    margin-bottom: 15px;
-  }
-
-  .h2_velkommen {
-    margin: -30px 0 20px 0;
-  }
-  @media screen and (min-width: 601px) {
-    .udforsk_forside {
-    margin-top: 60px;
-    margin-bottom: 15px;
-  }
-  }
-
-  @media only screen and (min-width: 960px) { 
-
-    .welcome_container {
-      flex-direction: row;
-      align-items: center;
-      margin-left: 85px;
-    }
-
-    .welcome_leftalign {
-      width: 50%;
-    }
-
-    .welcome_rightalign {
-      width: 50%;
-  }
-
-  .hero_forside {
-    height: 550px;
-  }
-
-  h1 {
-    margin-top: 260px;
-    margin-bottom: 35px;
-  }
-
-  .udforsk_forside {
-    margin-top: 100px;
-    margin-bottom: 15px;
-  }
-
-  .h2_velkommen {
-    margin-left: -35px;
-  }
-
-  .center_p {
-    text-align: center;
-  }
-}
-
-</style>
