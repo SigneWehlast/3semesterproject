@@ -19,6 +19,7 @@ const aboutScroll = () => {
           </video>
         </div>
         <div class="btn pink udforsk_btn" @click="aboutScroll()">UDFORSK</div>
+        <i @click="aboutScroll()" class="om_arrow fa-solid fa-angle-down fa-xl" style="color: #e05254;"></i>
   </main>
   <section class="pinkbackground">
     <h2 id="udforsk_scroll">LÆR MERE OM FESTIVALEN</h2>
@@ -41,5 +42,10 @@ const aboutScroll = () => {
 <style scoped>
   .h2_margin {
     margin-top: 120px;
+  }
+  .om_arrow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
   }
 </style>

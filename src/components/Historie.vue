@@ -74,7 +74,6 @@ const getHistorieSection = () => {
 
     .historie_title {
         text-align: center;
-        /*margin-left: -20px;*/
     }
     
     img {
@@ -84,10 +83,10 @@ const getHistorieSection = () => {
     @media screen and (min-width: 601px) {
         .historie_image {
         height: 100%;
-        width: 350px;
+        width: 300px;
     }
         .historie_box {
-        width: 350px;
+        width: 300px;
         margin-left: 50px;
     }
 
@@ -98,12 +97,27 @@ const getHistorieSection = () => {
     }
 
     @media only screen and (min-width: 960px) {
+
       section {
         background-image: url("../assets/pictures/bottle_timeline.png");
         background-position: center;
-        background-size: auto 100%;
+        height: 700px;
     }
 
+    .historie_image {
+        height: 100%;
+        width: 400px;
+    }
+        .historie_box {
+        width: 400px;
+        margin-left: 50px;
+    }
+
+    .historie_container {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-right: 20px;
+    }
     }
 
 
