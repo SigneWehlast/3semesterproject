@@ -553,7 +553,7 @@ flex-direction: column;
 @media only screen and (min-width: 960px) {
 
   h1 {
-    font-size: 50px;
+    font-size: 70px;
   }
 
   h2 {
@@ -663,13 +663,17 @@ flex-direction: column;
   }
 
   .h1_home {
-    margin-top: 260px;
-    margin-bottom: 35px;
+    margin-top: 400px;
+    margin-bottom: 55px;
+  }
+
+  .p_hero {
+    font-size: 30px;
   }
 
   .udforsk_forside {
-    margin-top: 100px;
-    margin-bottom: 15px;
+    margin-top: 170px;
+    margin-bottom: 20px;
   }
 
   .h2_velkommen {
