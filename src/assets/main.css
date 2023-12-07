@@ -265,7 +265,7 @@ flex-direction: column;
 }
 
 .h1_home{
-  margin-top: 180px;
+  margin-top: 200px;
   margin-bottom: 20px;
 }
 .flex_hero {
@@ -275,7 +275,7 @@ flex-direction: column;
 }
 
 .udforsk_forside {
-  margin-top: 70px;
+  margin-top: 50px;
   margin-bottom: 15px;
 }
 
@@ -502,8 +502,12 @@ flex-direction: column;
     height: 295px;
   }
 
+  .h1_home {
+    margin-top: 190px;
+  }
+
   .udforsk_forside {
-    margin-top: 60px;
+    margin-top: 45px;
     margin-bottom: 15px;
   }
 
