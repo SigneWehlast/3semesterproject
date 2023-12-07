@@ -14,12 +14,12 @@ const aboutScroll = () => {
   <main>
     <h2 class="h2_margin">OM ROSÉ FESTIVAL ODENSE</h2>
     <div class="center">
-          <video class="hero_movie" controls>
-            <source src="../assets/videos/rosefestivalodense_headvideo.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="btn pink udforsk_btn" @click="aboutScroll()">UDFORSK</div>
-        <i @click="aboutScroll()" class="om_arrow fa-solid fa-angle-down fa-xl" style="color: #e05254;"></i>
+      <video class="hero_movie" controls>
+        <source src="../assets/videos/rosefestivalodense_headvideo.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="btn pink udforsk_btn" @click="aboutScroll()">UDFORSK</div>
+      <i @click="aboutScroll()" class="om_arrow fa-solid fa-angle-down fa-xl" style="color: #e05254;"></i>
   </main>
   <section class="pinkbackground">
     <h2 id="udforsk_scroll">LÆR MERE OM FESTIVALEN</h2>

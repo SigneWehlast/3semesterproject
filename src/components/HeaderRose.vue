@@ -108,6 +108,8 @@ export default{
     </header>
   <RouterView />
 </template>
+
+
 <style scoped>
 header {
 	 background-color: transparent;
