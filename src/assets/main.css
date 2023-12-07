@@ -234,6 +234,7 @@ a {
 }
 .hero_forside {
 background-image: url("../assets/pictures/heroshot.jpg");
+opacity: 80%;
 height: 400px;
 background-position: center;
 background-repeat: no-repeat;
