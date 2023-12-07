@@ -25,11 +25,13 @@
         </div>
     </section>
 
-    <p>Derudover er glasset særligt velegnet til “New World” vine, som bringer de bløde frugtige noter frem. 
-    Glasset har en værdi af 195kr!
+    <section>
+        <p>Derudover er glasset særligt velegnet til “New World” vine, som bringer de bløde frugtige noter frem. 
+        Glasset har en værdi af 195kr!
 
-    Vil du også afprøve Riedelglasset og oplevelse en helt fantastisk smagsoplevelse? 
-    Så køb billet til Rosé Festival Odense 2024 lige her. </p>
+        Vil du også afprøve Riedelglasset og oplevelse en helt fantastisk smagsoplevelse? 
+        Så køb billet til Rosé Festival Odense 2024 lige her. </p>
 
-    <div class="btn blue glas_btn">KØB BILLET</div>
+        <div class="btn blue glas_btn">KØB BILLET</div>
+    </section>
 </template>

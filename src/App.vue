@@ -1,10 +1,6 @@
 <script setup>
 import FooterRose from './components/FooterRose.vue'
 import HeaderRose from './components/HeaderRose.vue'
-
-
-
-
 </script>
 
 <template>
