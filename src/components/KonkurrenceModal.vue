@@ -35,7 +35,7 @@
           </div>
         </div>
         <div class="konkurrencemodal_footer">
-          <button class="post" @click="hide">TIlMELD</button>
+          <button class="post" @click="hide">TILMELD</button>
         </div>
       </div>
     </div>
