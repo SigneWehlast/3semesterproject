@@ -71,12 +71,6 @@ h3 {
   margin: 5px;
 }
 
-.h2_leftalign {
-  text-align: left;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-right: 20px;
-}
 
 p {
   font-size: 14px;
@@ -281,7 +275,9 @@ flex-direction: column;
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 390px;
+  bottom: 10px;
+  left: 10px;
+  z-index: 2;
 }
 
 /*Om os*/
@@ -614,6 +610,10 @@ flex-direction: column;
 
     .h2_leftalign {
       margin-left: 85px;
+      text-align: left;
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-right: 20px;
     }
 
     .pink_box {
@@ -661,7 +661,6 @@ flex-direction: column;
     height: 55px;
     width: 220px;
     font-size: 20px;
-    top: 520px;
   }
 
     /*Om os*/
