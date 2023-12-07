@@ -3,6 +3,11 @@
   color-scheme: light dark;
 }
 
+@font-face {
+  font-family: fa;
+  src: url(../assets/Miller-DisplayRoman.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +15,7 @@
 
 body {
   background-color: #FFF4F2;
-  font-family: system-ui;
+  font-family: fa;
 }
 
 section {
