@@ -144,6 +144,22 @@ a {
   font-size: 14px;
 }
 
+.btn_deal {
+  height: 35px;
+  width: 170px;
+  border-radius: 7px;
+  color: #FFFFFF;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 2;
+  border-style: hidden;
+}
+
 .btn_form {
   border: none;
 }

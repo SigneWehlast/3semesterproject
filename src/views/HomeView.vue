@@ -2,6 +2,7 @@
 import Program2024 from '../components/program2024.vue';
 import Vinudstillere from '../components/Vinudstillere.vue';
 import HeaderRose from '../components/HeaderRose.vue';
+import KonkurrenceModal from '../components/KonkurrenceModal.vue';
 
 const udforskForsideScroll = () => {
   document.getElementById("forside_scroll").scrollIntoView({ behavior: "smooth" });
@@ -21,7 +22,8 @@ const udforskForsideScroll = () => {
         <div @click="udforskForsideScroll()" class="btn pink udforsk_forside">UDFORSK</div>
         <i @click="udforskForsideScroll()" class="fa-solid fa-angle-down fa-xl" style="color: #e05254;"></i>
       </div>            
-      <div class="btn_win pink">VIND 2 BILLETTER</div>
+      <button @click="openModal()" type="submit" class="tn_win pink btn_deal">VIND 2 BILLETTER</button>
+                <KonkurrenceModal />
     </section>
     <section class="welcome_container_home">
       <div class="welcome_leftalign_home">
@@ -93,3 +95,20 @@ const udforskForsideScroll = () => {
     </section>
   </main>
 </template>
+
+<script>
+export default {
+        components: {
+    KonkurrenceModal,
+  },
+  methods: {
+    openModal() {
+      const modal = document.getElementById("modalOne");
+      modal.classList.add("show");
+    },
+    setActiveTab(tabName) {
+      this.activeTab = tabName;
+    },
+  }
+}
+</script>

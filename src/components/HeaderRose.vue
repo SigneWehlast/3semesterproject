@@ -51,7 +51,7 @@ export default{
             </router-link>
           </li>
           <li>
-            <router-link class="link" :to="{ name:'om' }" :class="{ 'active': $route.name === '' }">OM FESTIVALEN
+            <router-link class="link" :to="{ name:'om' }" :class="{ 'active': $route.name === 'om' }">OM FESTIVALEN
                 <i class="fa-solid fa-chevron-down dropdown-ikon"></i>
             </router-link>
             <div class="dropdown-menu">
@@ -96,7 +96,7 @@ export default{
                 <ul v-show="mobileNav" class="dropdown-nav">
                     <li><router-link  class="link" :to="{ name:'' }"></router-link></li>
                     <li><router-link @click="hide" class="link" :to="{ name:'program' }" :class="{ 'active': $route.name === 'program' }">PROGRAM</router-link></li>
-                    <li><router-link @click="hide" class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">OM FESTIVALEN</router-link></li>
+                    <li><router-link @click="hide" class="link" :to="{ name:'om' }" :class="{ 'active': $route.name === 'om' }">OM FESTIVALEN</router-link></li>
                     <li><router-link @click="hide" class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">VINUDSTILLERE</router-link></li>
                     <li><router-link @click="hide" class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">MAD & DRIKKE</router-link></li>
                     <div class="btn-blue">
@@ -155,10 +155,9 @@ header {
 	 border-bottom: 1px solid #F8DCDB;
 }
  header nav .navigation li {
-	 padding: 5px;
-	 margin-left: 10px;
 	 position: relative;
 	 list-style: none;
+   white-space: nowrap;
 }
  header nav .navigation li .dropdown-menu {
 	 display: none;

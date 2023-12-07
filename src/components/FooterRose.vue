@@ -25,7 +25,6 @@
         name.value = '';
         email.value = '';
     }
-
 </script>
 <template>
     <footer class="pinkbackground">
