@@ -682,20 +682,23 @@ flex-direction: column;
       background-position: center;
       height: 700px;
   }
-
   .historie_image {
       height: 100%;
-      width: 400px;
+      width: 300px;
   }
       .historie_box {
-      width: 400px;
-      margin-left: 50px;
+      width: 300px;
+      margin-left: 120px;
   }
 
   .historie_container {
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 20px;
+  }
+
+  .historie_box:nth-child(2) {
+    margin-top: 160px;
+    margin-right: 120px;
   }
 
   /*Lær mere*/
