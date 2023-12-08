@@ -97,6 +97,11 @@ export default{
                     <li><router-link  class="link" :to="{ name:'' }"></router-link></li>
                     <li><router-link @click="hide" class="link" :to="{ name:'program' }" :class="{ 'active': $route.name === 'program' }">PROGRAM</router-link></li>
                     <li><router-link @click="hide" class="link" :to="{ name:'om' }" :class="{ 'active': $route.name === 'om' }">OM FESTIVALEN</router-link></li>
+                    <li><router-link @click="hide" class="link" :to="{ name:'billet' }" :class="{ 'active': $route.name === 'billet' }">BILLET INFORMATION</router-link></li>
+                    <li><router-link @click="hide" class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">MERCHANDISE</router-link></li>
+                    <li><router-link @click="hide" class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">PRESSE</router-link></li>
+                    <li><router-link @click="hide" class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">FAQ</router-link></li>
+                    <li><router-link @click="hide" class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">KONTAKT OS</router-link></li>
                     <li><router-link @click="hide" class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">VINUDSTILLERE</router-link></li>
                     <li><router-link @click="hide" class="link" :to="{ name:'' }" :class="{ 'active': $route.name === '' }">MAD & DRIKKE</router-link></li>
                     <div class="btn-blue">
@@ -167,7 +172,7 @@ header {
 	 top: 100%;
 	 left: 0;
 	 width: 100%;
-	 padding: 5px;
+	 padding: 20px;
 	 z-index: 10;
 }
  header nav .navigation li .dropdown-menu ul {
@@ -276,6 +281,7 @@ header {
 
 .dropdown-menu {
   background-color: #FFF;
+  padding: 20px;
 }
 
 .btn-blue{

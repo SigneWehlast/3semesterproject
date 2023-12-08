@@ -41,36 +41,6 @@ const getSlides = () => {
 
 <style scoped>
 
-@keyframes slide {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-100%);
-    }
-}
-
-.slideshow-container {
-    overflow: hidden;
-    padding: 60px 0;
-    white-space: nowrap;
-}
-
-.slideshow-container:hover .slider-track{
-    animation-play-state: paused;
-}
-.slider-track {
-    display: inline-block;
-    box-sizing: border-box;
-    animation: 20s slide infinite linear;
-}
-
-.slider-track img {
-    height: 200px;
-    margin: 0 40px;
-
-}
-
 @media screen and (min-width: 900px){
     .slider-track img {
         height: 300px;
