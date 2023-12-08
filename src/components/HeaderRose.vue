@@ -176,22 +176,24 @@ header {
 	 z-index: 10;
 }
  header nav .navigation li .dropdown-menu ul {
-	 list-style: none;
+	 list-style: none !important;
 	 padding: 0;
 	 margin: 0;
 }
  header nav .navigation li .dropdown-menu ul li {
 	 margin-bottom: 10px;
+   list-style: none !important;
 }
  header nav .navigation li .dropdown-menu ul li a {
 	 text-decoration: none;
+   list-style: none !important;
 }
  header nav .navigation li:hover .dropdown-menu {
 	 display: flex;
    justify-content: space-around;
 }
  header nav .navigation a {
-	 list-style: none;
+	 list-style: none !important;
 }
  header nav .login-link {
 	 display: inline-block;
@@ -309,6 +311,10 @@ header {
 }
  li::marker {
 	 content: none;
+}
+
+li {
+  list-style: none;
 }
 
 .logo {
