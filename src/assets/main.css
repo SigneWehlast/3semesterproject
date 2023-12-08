@@ -49,6 +49,10 @@ footer {
   width: 100%;
 }
 
+.footer_info, .footer_find {
+  margin: 15px 0 20px 0;
+}
+
 .socials {
   display: flex;
   justify-content: center;
@@ -80,6 +84,9 @@ h3 {
   margin: 5px;
 }
 
+.f_p {
+  padding: 20px;
+}
 
 p {
   font-size: 14px;
@@ -180,6 +187,14 @@ a {
   padding-left: 20px;
 }
 
+.f_symbol {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  top: 10px;
+  padding-left: 0px;
+}
+
 .center {
   display: flex;
   justify-content: center;
@@ -193,6 +208,7 @@ a {
 
 .hero_movie {
   width: 80%;
+  margin: -20px 0;
 }
 
 .container {
@@ -292,7 +308,8 @@ flex-direction: column;
 }
 
 .h2_velkommen {
-  margin: -10px 0 20px 0;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .btn_win {
@@ -308,6 +325,10 @@ flex-direction: column;
   bottom: 10px;
   left: 10px;
   z-index: 2;
+}
+
+.video_p {
+  margin-top: 10px;
 }
 
 /* Konkurrencebtn */

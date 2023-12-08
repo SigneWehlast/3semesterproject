@@ -28,28 +28,28 @@ const udforskForsideScroll = () => {
     <section class="welcome_container_home">
       <div class="welcome_leftalign_home">
         <h2 id="forside_scroll" class="h2_velkommen">VELKOMMEN TIL ROSÉ FESTIVAL ODENSE</h2>
-        <p>Odenses største og pinkeste rosé festival har 
+        <p class="f_p">Odenses største og pinkeste rosé festival har 
           eksisteret siden 2018 og formår hvert år at levere et 
           brag af en festival fyldt med</p>
         
         <div class="symbol">
-          <i class="fa-solid fa-champagne-glasses fa-xl" style="color: #e05254;"></i>
+          <i class="f_symbol fa-solid fa-champagne-glasses fa-xl" style="color: #e05254;"></i>
           <p>Underholdning</p>
         </div>
         <div class="symbol">
-          <i class="fa-solid fa-comments fa-xl" style="color: #e05254;"></i>
+          <i class="f_symbol fa-solid fa-comments fa-xl" style="color: #e05254;"></i>
           <p>Socialisering & god stemning</p>
         </div>
         <div class="symbol">
-          <i class="fa-solid fa-utensils fa-xl" style="color: #e05254;"></i>
+          <i class="f_symbol fa-solid fa-utensils fa-xl" style="color: #e05254;"></i>
           <p>Lækkert mad & Iskold Rosé</p>
         </div>
         <div class="symbol">
-          <i class="fa-solid fa-music fa-xl" style="color: #e05254;"></i>
+          <i class="f_symbol fa-solid fa-music fa-xl" style="color: #e05254;"></i>
           <p>Efterfest med DJ</p>
         </div>
 
-        <p>Billetten til festivalen koster 499 kr., hvilket 
+        <p class="f_p">Billetten til festivalen koster 499 kr., hvilket 
           inkluderer 15 slags rosévine fra forskellige 
           forhandlere, en stemningsfuld festivalplads. 
           Derudover får du dit helt eget indgraverede Riedel 
@@ -76,7 +76,7 @@ const udforskForsideScroll = () => {
     </section>
     <section>
       <h2 class="h2_leftalign">BLIV EN DEL AF FÆLLESSKABET</h2>
-      <p class="margin_p">Vi glæder os utroligt meget til at fejre denne fantastiske
+      <p class="margin_p video_p">Vi glæder os utroligt meget til at fejre denne fantastiske
         dag sammen med alle jer roséelskere.
       </p>
         <div class="center">
