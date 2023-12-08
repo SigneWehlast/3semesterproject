@@ -208,6 +208,7 @@ a {
   margin: 10px;
   width: 80%;
   height: auto;
+  align-items: center;
 }
 
 .content_p {
@@ -216,6 +217,8 @@ a {
   padding-right: 20px;
   padding-left: 20px;
   line-height: 15px;
+  text-align: center;
+
 }
 
 .content_container {
