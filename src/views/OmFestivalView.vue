@@ -14,7 +14,7 @@ const aboutScroll = () => {
   <main>
     <h2 class="h2_margin">OM ROSÉ FESTIVAL ODENSE</h2>
     <div class="center">
-      <video class="hero_movie" controls>
+      <video class="hero_movie" autoplay muted controls>
         <source src="../assets/videos/rosefestivalodense_headvideo.mp4" type="video/mp4">
       </video>
     </div>

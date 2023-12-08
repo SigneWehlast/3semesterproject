@@ -479,10 +479,11 @@ select:focus {
 
 /*historie*/
 #historie_section {
-  background-image: url("../assets/pictures/timeline.png");
+  background-image: url("../assets/pictures/timeline_mobile.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: auto;
+  margin-right: 5px;
 }
 .historie_container {
     display: flex;
@@ -865,7 +866,7 @@ select:focus {
 
     /*historie*/
     #historie_section {
-      background-image: url("../assets/pictures/bottle_timeline.png");
+      background-image: url("../assets/pictures/roseflaske.png");
       background-position: center;
       height: 700px;
   }

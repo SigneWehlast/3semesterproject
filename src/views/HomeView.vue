@@ -80,7 +80,7 @@ const udforskForsideScroll = () => {
         dag sammen med alle jer roséelskere.
       </p>
         <div class="center">
-          <video class="hero_movie" controls>
+          <video class="hero_movie" autoplay muted controls>
             <source src="../assets/videos/rosefestivalodense_headvideo.mp4" type="video/mp4">
           </video>
         </div>
