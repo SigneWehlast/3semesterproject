@@ -22,7 +22,7 @@ const aboutScroll = () => {
       <i @click="aboutScroll()" class="om_arrow fa-solid fa-angle-down fa-xl" style="color: #e05254;"></i>
   </main>
   <section class="pinkbackground">
-    <h2 id="udforsk_scroll">LÆR MERE OM FESTIVALEN</h2>
+    <h2 id="udforsk_scroll" class="margin_bottom_small">LÆR MERE OM FESTIVALEN</h2>
     <LaerMere />
   </section>
   <section>
@@ -30,11 +30,11 @@ const aboutScroll = () => {
     <OmOS />
   </section>
   <section class="pinkbackground">
-    <h2>HISTORIEN OM ROSÉ FESTIVAL ODENSE</h2>
+    <h2 class="margin_bottom">HISTORIEN OM ROSÉ FESTIVAL ODENSE</h2>
     <Historie />
   </section>
   <section>
-    <h2>RIEDEL GLAS</h2>
+    <h2 class="margin_bottom_small">RIEDEL GLAS</h2>
     <RiedelGlas />
   </section>
 </template>

@@ -33,7 +33,7 @@ const getForsideProgram = () => {
     <div class="container">
       <div v-for="(program, index) in fProgram" :key="index" class="program_box">
         <div class="content_container">
-          <h3>{{ program.time }}</h3>
+          <h3 class="h3_program">{{ program.time }}</h3>
           <p class="content_p">{{ program.description }}</p>
         </div>
         <div class="image_container">

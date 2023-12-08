@@ -75,7 +75,6 @@ h2 {
   color: #2D3142;
   text-align: center;
   padding-top: 20px;
-  padding-right: 20px;
 }
 
 h3 {
@@ -208,7 +207,6 @@ a {
 
 .hero_movie {
   width: 80%;
-  margin: -20px 0;
 }
 
 .container {
@@ -233,8 +231,10 @@ a {
   padding-right: 20px;
   padding-left: 20px;
   line-height: 15px;
-  text-align: center;
+}
 
+.h3_program {
+  margin-left: 20px;
 }
 
 .content_container {
@@ -247,6 +247,7 @@ a {
   height: auto; 
   overflow: hidden;
   object-fit: cover;
+  display: flex;
 }
 
 .program_image {
@@ -265,6 +266,11 @@ a {
 .h2_margin {
   margin-top: 120px;
 }
+
+.margin_bottom_small {
+  margin-bottom: 15px;
+}
+
 .om_arrow {
   display: flex;
   justify-content: center;
@@ -494,7 +500,11 @@ select:focus {
 .omOs_image {
   height: 100%;
   width: 235px;
-  margin-top: 40px;
+  margin-top: 20px;
+}
+
+.om_box:nth-child(2), .om_box:nth-child(3) {
+  margin-top: 10px;
 }
 
 .omOs_description {
@@ -523,7 +533,7 @@ select:focus {
 }
 
 .historie_description {
-    margin: 40px -20px 0 -20px;
+    margin: 20px -20px 0 -20px;
 }
 
 .historie_title {
@@ -706,7 +716,7 @@ select:focus {
   .omOs_image {
     height: 100%;
     width: 350px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
     .om_box {
     width: 350px;
@@ -725,6 +735,10 @@ select:focus {
 #historie_section {
     background-image: url("../assets/pictures/timeline_tablet.png");
     background-size: auto 100%;
+}
+
+.margin_bottom {
+  margin-bottom: 20px;
 }
 
 /*Lær mere*/
@@ -888,6 +902,10 @@ select:focus {
       margin: 0px -20px 0px -20px;
   }
 
+  .om_box:nth-child(2), .om_box:nth-child(3) {
+    margin-top: 0px;
+  }
+
     /*historie*/
     #historie_section {
       background-image: url("../assets/pictures/roseflaske.png");
@@ -909,7 +927,7 @@ select:focus {
   }
 
   .historie_box:nth-child(2) {
-    margin-top: 160px;
+    margin-top: 180px;
     margin-right: 120px;
   }
 
@@ -983,6 +1001,14 @@ select:focus {
 
     .billet {
       margin-top: -75px;
+    }
+
+    .content_p {  
+    text-align: center;
+    }
+
+    .h3_program {
+      margin-left: 0px;
     }
 
 }
