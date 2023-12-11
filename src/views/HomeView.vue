@@ -75,7 +75,7 @@ const udforskForsideScroll = () => {
       </a>
     </section>
     <section>
-      <h2 class="h2_leftalign">BLIV EN DEL AF FÆLLESSKABET</h2>
+      <h2 class="h2_leftalign h2_bliv">BLIV EN DEL AF FÆLLESSKABET</h2>
       <p class="margin_p video_p">Vi glæder os utroligt meget til at fejre denne fantastiske
         dag sammen med alle jer roséelskere.
       </p>

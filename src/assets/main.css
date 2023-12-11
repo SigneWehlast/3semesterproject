@@ -343,7 +343,7 @@ flex-direction: column;
 }
 
 .video_p {
-  margin-top: 10px;
+  margin: 10px 35px 0 35px;
 }
 
 /* Konkurrencebtn */
@@ -721,6 +721,10 @@ select:focus {
     font-size: 17px;
   }
 
+  .video_p {
+    margin: 10px 80px 0 80px;
+  }
+
   /*Om os*/
   .omOs_image {
     height: 100%;
@@ -908,6 +912,14 @@ select:focus {
     height: 55px;
     width: 220px;
     font-size: 20px;
+  }
+
+  .video_p {
+    margin: 10px 35px 0 170px;
+  }
+
+  .h2_bliv {
+    margin-left: 170px;
   }
 
     /*Om os*/
