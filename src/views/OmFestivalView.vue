@@ -33,7 +33,7 @@ const aboutScroll = () => {
     <h2 class="margin_bottom">HISTORIEN OM ROSÉ FESTIVAL ODENSE</h2>
     <Historie />
   </section>
-  <section>
+  <section class="margin">
     <h2 class="margin_bottom_small">RIEDEL GLAS</h2>
     <RiedelGlas />
   </section>

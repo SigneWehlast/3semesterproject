@@ -777,6 +777,18 @@ select:focus {
     font-size: 17px;
   }
 
+  .space {
+    padding: 0px 160px;
+  }
+
+  .p_space {
+    margin-top: 15px;
+  }
+
+  .btn_space {
+    padding: 0px 140px;
+  }
+
   .p_centeralign  {
     margin-top: 20px;
   }

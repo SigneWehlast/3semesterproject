@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <p>Rosévinen bliver serveret i et specialdesignet Rosévinglas fra Riedel kaldet “Vinum Extreme Rose”. Glassets design er skabt til at efterkomme efterspørgslen på rosévin og er fundamentalt anderledes end andre vinglas. 
+    <p class="space">Rosévinen bliver serveret i et specialdesignet Rosévinglas fra Riedel kaldet “Vinum Extreme Rose”. Glassets design er skabt til at efterkomme efterspørgslen på rosévin og er fundamentalt anderledes end andre vinglas. 
     Dette kommer til udtryk i:</p>
 
    <section class="flex_container_rg">
@@ -26,12 +26,13 @@
     </section>
 
     <section>
-        <p>Derudover er glasset særligt velegnet til “New World” vine, som bringer de bløde frugtige noter frem. 
-        Glasset har en værdi af 195kr!
+        <p class="space">Derudover er glasset særligt velegnet til “New World” vine, som bringer de bløde frugtige noter frem. 
+        Glasset har en værdi af 195kr!</p>
 
-        Vil du også afprøve Riedelglasset og oplevelse en helt fantastisk smagsoplevelse? 
+        <p class="space p_space">Vil du også afprøve Riedelglasset og oplevelse en helt fantastisk smagsoplevelse? 
         Så køb billet til Rosé Festival Odense 2024 lige her. </p>
-
+    <div class="btn_space">
         <div class="btn blue glas_btn">KØB BILLET</div>
+    </div>
     </section>
 </template>
