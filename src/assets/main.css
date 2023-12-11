@@ -254,6 +254,10 @@ a {
   display: flex;
 }
 
+.h2_crtl {
+  margin: 50px 0;
+}
+
 .program_image {
   width: 100%;
   height: 100%;
