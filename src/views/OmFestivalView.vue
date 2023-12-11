@@ -26,15 +26,15 @@ const aboutScroll = () => {
     <LaerMere />
   </section>
   <section>
-    <h2 id="aboutUs_scroll">OM OS</h2>
+    <h2 id="aboutUs_scroll" class="margin_top">OM OS</h2>
     <OmOS />
   </section>
   <section class="pinkbackground">
     <h2 class="margin_bottom">HISTORIEN OM ROSÉ FESTIVAL ODENSE</h2>
     <Historie />
   </section>
-  <section class="margin">
-    <h2 class="margin_bottom_small">RIEDEL GLAS</h2>
+  <section>
+    <h2 class="margin_bottom_small margin_top">RIEDEL GLAS</h2>
     <RiedelGlas />
   </section>
 </template>

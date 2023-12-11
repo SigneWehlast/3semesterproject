@@ -4,7 +4,7 @@ import Program2024 from '../components/Program2024.vue';
 
 <template>
   <main>
-    <div class="program_crtl">
+    <div>
       <h2 class="h2_program">ROSÉ FESTIVAL PROGRAM 2024</h2>
       <p class="margin_p">Festivalen afholdes lørdag den 25. maj 2024 ved 
         Ansgar Anlæg Odense.</p>

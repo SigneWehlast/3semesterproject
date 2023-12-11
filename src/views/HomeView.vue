@@ -66,7 +66,7 @@ const udforskForsideScroll = () => {
     </section>
 
     <section class="pinkbackground">
-      <h2 class="h2_crtl">PROGRAM ROSÉ FESTIVAL 2024</h2>
+      <h2 class="program_margin">PROGRAM ROSÉ FESTIVAL 2024</h2>
       <div>
         <Program2024 />
       </div>

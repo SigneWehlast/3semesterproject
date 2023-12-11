@@ -30,6 +30,7 @@ section {
   background-color: #FCE9E6;
   padding-bottom: 30px;
   width: 100%;
+  padding-top: 20px;
 }
 
 .bold {
@@ -135,7 +136,7 @@ a {
 }
 
 .h2_program {
-  margin: 120px 0 20px 0;
+  margin: 140px 0 20px 0;
 }
 
 .program_box {
@@ -264,6 +265,14 @@ a {
   border: solid 1px black;
 }
 
+.program_margin {
+  margin-bottom: 20px;
+}
+
+.h2_bliv {
+  margin-top: 20px;
+}
+
 .udforsk_btn {
   margin-bottom: 20px;
 }
@@ -273,7 +282,7 @@ a {
 }
 
 .h2_margin {
-  margin-top: 120px;
+  margin-top: 140px;
 }
 
 .margin_bottom_small {
@@ -283,7 +292,7 @@ a {
 .om_arrow {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /*Forside*/
@@ -636,7 +645,11 @@ select:focus {
 
 .h2_billet {
   text-align: left;
-  margin: 120px 0 20px 20px;
+  margin: 140px 0 20px 20px;
+}
+
+.margin_top {
+  margin-top: 20px;
 }
 
 /*Tablet*/
